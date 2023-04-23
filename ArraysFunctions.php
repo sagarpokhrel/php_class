@@ -13,7 +13,11 @@
         Implode: <?php echo implode (" ", $color); ?> <br>
         <?php $explode = " Never give up in life" ;
         print_r (explode (" ", $explode ));?> <br>
-
+        <?php
+        function Welcome(){
+            echo " <br> Welcome to the jungle <br>";
+        }
+        ?>
     </body>
 
 </html>
